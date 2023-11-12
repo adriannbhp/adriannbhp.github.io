@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+$primary: hsl(171, 100%, 41%);
+
+$input-focus-border-color: $primary;
+$input-focus-color:$primary;
+$input-focus-box-shadow-color:rgba($primary, 0.25);
+
+@import "../node_modules/bulma/bulma.sass";
+
+.material-icons-outlined.md-18 { font-size: 18px; }
+.material-icons-outlined.md-24 { font-size: 24px; }
+.material-icons-outlined.md-36 { font-size: 36px; }
+.material-icons-outlined.md-48 { font-size: 48px; }
+.is-clickable { 
+    pointer-events: auto;
+    cursor: pointer!important;
+    user-select: none;
+}
